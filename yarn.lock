@@ -1175,6 +1175,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+ckeditor5-emojis@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ckeditor5-emojis/-/ckeditor5-emojis-1.0.0.tgz#d3cc4e5840b14d4584933ad129beb2b26cf0232f"
+  integrity sha512-m8SvjSkCZLuEVYJHCRBQAKrSOfN0mmDIqsbSHdV6xCrhmtM/O9A43jaKBNL8tiAfe+r89p1lJtF81TPeOLyOQQ==
+
 ckeditor5@^31.0.0:
   version "31.0.0"
   resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-31.0.0.tgz#304208c1796138c8d063895e8b962f321a627846"

@@ -47,6 +47,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-autosave": "^31.0.0"
+    "@ckeditor/ckeditor5-autosave": "^31.0.0",
+    "ckeditor5-emojis": "^1.0.0"
   }
 }

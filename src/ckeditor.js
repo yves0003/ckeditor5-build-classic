@@ -38,6 +38,7 @@ import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformatio
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline.js";
 import WordCount from "@ckeditor/ckeditor5-word-count/src/wordcount.js";
 import AutoSave from "@ckeditor/ckeditor5-autosave/src/autosave";
+import Emoji from "ckeditor5-emojis/src/emoji";
 
 class Editor extends ClassicEditor {}
 
@@ -78,6 +79,7 @@ Editor.builtinPlugins = [
 	Underline,
 	WordCount,
 	AutoSave,
+	Emoji,
 ];
 
 // Editor configuration.
@@ -111,6 +113,7 @@ Editor.defaultConfig = {
 			"|",
 			"undo",
 			"redo",
+			"emoji",
 		],
 	},
 	language: "fr",
